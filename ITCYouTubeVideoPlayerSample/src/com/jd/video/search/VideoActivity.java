@@ -23,6 +23,7 @@ public class VideoActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_video);
+		
 		if(YouTubeApiServiceUtil.isYouTubeApiServiceAvailable(VideoActivity.this).equals(YouTubeInitializationResult.SUCCESS)){
 			   //This means that your device has the Youtube API Service (the app) and you are safe to launch it. 
 			final Intent videoIntent = YouTubeStandalonePlayer.createVideoIntent(VideoActivity.this, YT_KEY, VIDEO_ID, 0, true, false);

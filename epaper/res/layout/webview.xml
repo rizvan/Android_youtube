@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff"
+    >
+
+ <Button
+    android:id="@+id/back" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:text="Home" 
+                   android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/sms_green"
+            android:padding="10dp"
+            android:textColor="#383838"
+            android:textStyle="bold"
+            android:shadowColor="#ffffff"
+            android:shadowDy="0.5" 
+    		android:visibility="gone"
+     />   
+
+     <TextView
+         android:id="@+id/papertextPrint"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/list_btn"
+         android:padding="8dp"
+         android:singleLine="true"
+         android:text="Epaper"
+         android:textColor="@color/black"
+         android:textSize="12dp" />
+    
+ <WebView android:id="@+id/webview" 
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent"/>
+</LinearLayout>
