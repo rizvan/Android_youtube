@@ -16,7 +16,7 @@ import com.jd.video.search.R;
 public class VideoActivity extends FragmentActivity {
 
 	private int REQ_PLAYER_CODE 	= 1;
-	private static String YT_KEY 	= "AIzaSyDAqIZtUWh9ZKit1euXeTRQExfhHkU5FY0";
+	private static String YT_KEY 	= "API_KEY_HERE";
 	private static String VIDEO_ID 	= "US4-yIy5BY4";	// Your video id here
 	
 	@Override
